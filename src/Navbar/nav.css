@@ -1,0 +1,42 @@
+nav{
+    width: 1020px;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    background-color: var(--color-bg);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+    display: flex;
+    margin: auto;
+    gap: 3.7rem;
+    text-align: center;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    
+}
+nav a{
+    padding: 0.9rem;
+    border-radius: 1rem;
+    display: flex;
+    color:var(--color-white);
+    font-size: 1.1rem;
+}
+nav a:hover{
+    background:var(--color-light);
+}
+nav a.active{
+    background: var(--color-light);
+    color: white;
+    opacity: 50%;
+}
+.nav_fill{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    height: 110px;
+    border-radius: 1rem;
+    left: 0;
+}

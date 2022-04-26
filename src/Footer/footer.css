@@ -1,0 +1,26 @@
+footer{
+    width: 1020px;
+    padding: 0.7rem 1.7rem;
+    position: center;
+    left: 50%;
+    top: 2rem;
+    display: flex;
+   
+    text-align: center;
+   
+   
+    
+}
+footer a{
+    padding: 0.9rem;
+    border-radius: 1rem;
+    display: flex;
+    color:var(--color-white);
+    font-size: 1.1rem;
+    gap: 2rem;
+}
+article{
+    margin-top: 2rem ;
+    color: var(--color-white);
+    text-align: center;
+}

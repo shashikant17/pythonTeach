@@ -1,0 +1,17 @@
+.body_container{
+    display: flex;
+    min-height: calc(100vh - 60px);
+    position: center fixed;
+    height: fit-content ;
+    width: 1020px;
+    margin-top: 120px;
+background: var(--color-white);
+border-radius: 1rem;
+}
+.body_container_left{
+    display: grid;
+    grid-template-columns: 70%;
+}
+.body_container_right{
+  grid-template-columns: 30%;
+}

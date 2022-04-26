@@ -1,0 +1,28 @@
+.question_area, .code-area {
+    padding: 25px;
+    display: table-cell;
+    width: 50%;
+  }
+  .question_area {
+    text-align: left;
+    position: absolute;
+    top: 0vh;
+  }
+  .code_area {
+    border-left: 2px solid navy;
+  }
+  .compiler_container {
+    display: table;
+    height: 95vh;
+    width: 95vw;
+  }
+  .container{
+    display: flex;
+    border-radius: 1rem;
+    height: auto;
+    width: auto;
+    margin-top: 120px;
+    position: center fixed;
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+
+}
