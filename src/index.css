@@ -12,7 +12,7 @@
 :root{
     --color-bg:#4c5a76;
     --color-primary:#394867;
-    --color-white:#d7dae0;
+    --color-white:#F1F6F9;
     --color-light:#afb5c2;
     --transtion: all 400ms ease;   
     --container-width-lg: 75%;
@@ -31,20 +31,26 @@ body{
     /*font-family:;A*/
     background:var(--color-bg) ;
     color:var(--color-primary) ;
-    width: 1440px;
     height: 720px;
-    left: -80px;    
-    top: 0px;
+width: 1440px;
+left: -80px;
+top: 0px;
+border-radius: 0px;
+
+    background-image: url("./assets/Background.png");
 
     
 }
 .container{
     display: flex;
     background-color: var(--color-white);
-    border-radius: 1rem;
-    height: 600px;
-    width: auto;
     margin-top: 120px;
     position: center fixed;
+    height: 600px;
+width: 1024px;
+left: 128px;
+top: 60px;
+border-radius: 20px;
+
 
 }
