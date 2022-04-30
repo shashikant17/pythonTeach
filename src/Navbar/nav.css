@@ -2,7 +2,6 @@ nav{
     width: 1020px;
     padding: 0.7rem 1.7rem;
     position: fixed;
-    background-color: var(--color-bg);
     left: 50%;
     transform: translateX(-50%);
     top: 2rem;
@@ -11,7 +10,7 @@ nav{
     gap: 3.7rem;
     text-align: center;
     border-radius: 1rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter:transparent;
     
 }
 nav a{

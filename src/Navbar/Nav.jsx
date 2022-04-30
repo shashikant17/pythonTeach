@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import './nav.css'
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+
 import {BsFillCalendar2WeekFill} from 'react-icons/bs'
+
 const Nav = () => {
   const [activeNav, setActiveNav]=useState('#')
   return (
-    <div className="nav_fill">
+   
       <nav>
+     
       <a herf='#home' onClick={()=> setActiveNav('#home')} className={activeNav==='#home' ? 'active' : ''}>HOME</a>
       <a herf='#about' onClick={()=> setActiveNav('#about')} className={activeNav==='#about' ? 'active' : ''}>Contest</a>
       <a herf='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}>Tutorial</a>
@@ -15,7 +19,7 @@ const Nav = () => {
       <a herf='#testimonials' onClick={()=> setActiveNav('#testimonials')} className={activeNav==='#testimonials' ? 'active' : ''}>Log In</a>
       
     </nav>
-    </div>
+   
   )
 }
 
