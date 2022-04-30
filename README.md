@@ -2,10 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Dependencies to download
+1. npm i @monaco-editor/react
+2. npm i axios
+3. npm i cors
+4. npm i express
+5. npm i react-select
 ## Available Scripts
 
 In the project directory, you can run:
-
+in diffrent node
+### cd server
+### node server-compiler.js
+in diffrent node
 ### `npm start`
 
 Runs the app in the development mode.\
