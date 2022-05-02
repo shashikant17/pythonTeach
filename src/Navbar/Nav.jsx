@@ -21,11 +21,11 @@ const Nav = () => {
       </Link>
 
       <Link to="/tutorial">
-        <a onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}>Tutorial</a>
+        <a onClick={()=> setActiveNav('#tutorial')} className={activeNav==='#tutorial' ? 'active' : ''}>Tutorial</a>
       </Link>
 
       <Link to="/calendar">
-        <a onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}><BsFillCalendar2WeekFill/>
+        <a onClick={()=> setActiveNav('#calender')} className={activeNav==='#calender' ? 'active' : ''}><BsFillCalendar2WeekFill/>
         </a>
       </Link>
 
@@ -35,12 +35,12 @@ const Nav = () => {
       </Link>
 
       <Link to="/FAQs">
-        <a  onClick={()=> setActiveNav('#contact')} className={activeNav==='#contact' ? 'active' : ''}>FAQs
+        <a  onClick={()=> setActiveNav('#FAQs')} className={activeNav==='#FAQs' ? 'active' : ''}>FAQs
         </a>
       </Link>
 
       <Link to="/login">
-        <a onClick={()=> setActiveNav('#testimonials')} className={activeNav==='#testimonials' ? 'active' : ''}>Log In
+        <a onClick={()=> setActiveNav('#login')} className={activeNav==='#login' ? 'active' : ''}>Log In
         </a>
       </Link>
 
