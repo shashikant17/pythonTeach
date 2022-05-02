@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 
 import Home from './components/home';
 import FAQs from './components/FAQs';
+import Compiler from './components/Compiler/Compiler';
 
 
 
@@ -22,6 +23,7 @@ class App extends Component {
       <Routes>
           <Route  path='/' element={< Home />}></Route>
           <Route exact path='/FAQs' element={< FAQs />}></Route>
+          <Route exact path='/compiler' element={< Compiler />}></Route>
           {/* <Route exact path='/about' element={< About />}></Route> */}
           {/* <Route exact path='/contact' element={< Contact />}></Route> */}
       </Routes>

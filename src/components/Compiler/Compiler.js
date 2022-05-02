@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
 import Editor from "@monaco-editor/react";
-import Navbar from './CompilerNav.css';
+import Navbar from './Compiler.css';
 import Axios from 'axios';
 import spinner from '../../assets/spinner.png';
 import './Compiler.css'
+import Nav from '../../Navbar/Nav';
 function Compiler() {
 
   // State variable to set users source code
@@ -58,6 +59,8 @@ function Compiler() {
 
 
   return (
+    <>
+    <Nav/>
     <div className="home-container">
     <div className="home-container1">
       <div className="home-main">
@@ -100,6 +103,7 @@ function Compiler() {
       </div>
     </div>
   </div>
+  </>
   )
 }
 
