@@ -9,15 +9,40 @@ const Nav = () => {
   return (
    
       <nav>
-     
-      <a herf='#home' onClick={()=> setActiveNav('#home')} className={activeNav==='#home' ? 'active' : ''}>HOME</a>
-      <a herf='#about' onClick={()=> setActiveNav('#about')} className={activeNav==='#about' ? 'active' : ''}>Contest</a>
-      <a herf='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}>Tutorial</a>
-      <a herf='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}><BsFillCalendar2WeekFill/></a>
-      <a herf='#compiler' onClick={()=> setActiveNav('#compiler')} className={activeNav==='#compiler' ? 'active' : ''}>Compiler</a>
-      <a herf='#contact' onClick={()=> setActiveNav('#contact')} className={activeNav==='#contact' ? 'active' : ''}>FAQs</a>
-      <a herf='#testimonials' onClick={()=> setActiveNav('#testimonials')} className={activeNav==='#testimonials' ? 'active' : ''}>Log In</a>
-      
+      <Link to="/">
+        <a onClick={()=> setActiveNav('#home')} className={activeNav==='#home' ? 'active' : ''}>Home
+        </a>
+      </Link>
+
+      <Link to="/contest">
+        <a onClick={()=> setActiveNav('#contest')} className={activeNav==='#contest' ? 'active' : ''}>Contest
+        </a>
+      </Link>
+
+      <Link to="/tutorial">
+        <a onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}>Tutorial</a>
+      </Link>
+
+      <Link to="/calendar">
+        <a onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}><BsFillCalendar2WeekFill/>
+        </a>
+      </Link>
+
+      <Link to="/compiler">
+        <a onClick={()=> setActiveNav('#compiler')} className={activeNav==='#compiler' ? 'active' : ''}>Compiler
+        </a>
+      </Link>
+
+      <Link to="/FAQs">
+        <a  onClick={()=> setActiveNav('#contact')} className={activeNav==='#contact' ? 'active' : ''}>FAQs
+        </a>
+      </Link>
+
+      <Link to="/login">
+        <a onClick={()=> setActiveNav('#testimonials')} className={activeNav==='#testimonials' ? 'active' : ''}>Log In
+        </a>
+      </Link>
+
     </nav>
    
   )
